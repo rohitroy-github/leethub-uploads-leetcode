@@ -45,6 +45,7 @@ class Solution {
             {
                 if(col[i] == -1)
                 {
+                    // checkForBipartiteComponent
                     if(check(i, V, adj, col) == false)
                     {
                         return false; 
